@@ -11,7 +11,7 @@
 @include('components.header')
 
 <div class="container">
-    <h1 class="text-center">Show Customer</h1>
+    <h1 class="text-center">Customer Detail</h1>
     <div class="card mx-auto" style="width: 18rem;">
         <div class="card-body text-center">
             <h5 class="card-title">{{ $customer->name }}</h5>
